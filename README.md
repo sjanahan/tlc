@@ -22,6 +22,9 @@ To teach the building blocks of constructing original thoughts in Tamil.
         1. "Is" in Tamil
         1. Tenses
     1. Subjects
+        1. Pronouns
+        1. Family members
+        1. Addressing strangers
 1. Grammar (Focus is here)
     1. Sentence structure
         1. Absence of Verb
