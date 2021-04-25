@@ -2,7 +2,7 @@
 An interactive application for learning Tamil through English with a focus on grammar.
 
 ### Goal
-To teach the building blocks of constructing original thoughts in Tamil. 
+To teach the building blocks of constructing original thoughts in Tamil. Starting with written Tamil and progressing into spoken Tamil.
 
 ### Index
 1. Tamil Letters
@@ -62,4 +62,6 @@ To teach the building blocks of constructing original thoughts in Tamil.
         1. Sometimes
         1. One day
     1. Sentence Ordering
-    1. Spoken substitutions
+    1. Spoken substitutions (regional)
+        1. Thanda
+        1. Common spoken verb conjugations
