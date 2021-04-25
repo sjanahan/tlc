@@ -30,5 +30,33 @@ To teach the building blocks of constructing original thoughts in Tamil.
     1. Adding adjectives to sentences
     1. Vaetrumai
     1. Linking words
+        1. And
+        1. But
+        1. Or
+        1. That
+        1. Therefore
+        1. So
+        1. Otherwise
+        1. Said another way
+        1. Nevertheless
+        1. Already
+        1. Immediately
+        1. Later
+        1. Now
+        1. Still
+        1. Today
+        1. Tomorrow
+        1. Until now/Yet
+        1. Anywhere
+        1. Nowhere
+        1. Everywhere
+        1. Mostly
+        1. Quickly
+        1. Really truthfully
+        1. Together
+        1. Always
+        1. Rarely
+        1. Sometimes
+        1. One day
     1. Sentence Ordering
     1. Spoken substitutions
