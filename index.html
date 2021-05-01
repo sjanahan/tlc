@@ -22,10 +22,97 @@
           height: 100%;
           border: none;
         }
+
+        /* [ON BIG SCREEN] */
+/* Wrapper */
+#hamnav {
+  width: 100%;
+  background: #000;
+  /* Optional */
+  position: sticky;
+  top: 0;
+}
+
+/* Hide Hamburger */
+#hamnav label, #hamburger { display: none; }
+
+/* Horizontal Menu Items */
+#hamitems { display: flex; }
+#hamitems a {
+  width: 20%; /* 100% / 5 tabs = 20% */
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover {
+  background: #401408;
+}
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* Show Hamburger Icon */
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* Break down menu items into vertical */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+    float: right
+  }
+
+  /* Toggle Show/Hide Menu */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
+/* [DOES NOT MATTER] */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+.center {
+/*border: 5px solid #FFFF00;*/
+text-align: center;
+width:100%;margin:0 auto
+}
+
+.profile {
+border: 5px solid #FFFF00;
+text-align: center;
+}
         </style>
 </head>
 <body>
-<h1>Tamil Sentence Structure</h1>
+    <nav id="hamnav">
+        <!-- [THE HAMBURGER] -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+       
+        <!-- [MENU ITEMS] -->
+        <div id="hamitems">
+          <div class="center">
+            <h1 style="color:white;"></h1style>
+              Tamil Language Center: Sentence Structure
+            </h1>
+          </div>
+          <!--<a href="profile.html"><h1>My Profile</h1></a>-->
+        </div>
+      </nav>
+      <br><br>
+
+
     <div class="container">
     <iframe class="responsive-iframe" 
             src="https://www.youtube.com/embed/SiEHvILeDk4" 
@@ -38,7 +125,7 @@
 
     <p>Cliff Notes for the Quiz</p>
 
-    <p><a href="sentence-structure.html">Ready for Quiz?</a></p>
+    <p><a href="reading-mc.html">Ready for Quiz?</a></p>
 
 </body>
 </html>

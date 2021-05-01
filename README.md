@@ -62,6 +62,7 @@ To teach the building blocks of constructing original thoughts in Tamil. Startin
         1. Sometimes
         1. One day
     1. Sentence Ordering
-    1. Spoken substitutions (regional)
+    1. Spoken substitutions (Northern Ilankai regional)
         1. Thanda
         1. Common spoken verb conjugations
+        1. கொள்ளலாம் அல்லது இருக்குலாம்
