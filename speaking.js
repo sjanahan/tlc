@@ -80,6 +80,8 @@ if (navigator.mediaDevices.getUserMedia) {
 
       audio.controls = true;
       const blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
+      console.log(blob)
+      // TODO compare the blob to the original
       chunks = [];
       const audioURL = window.URL.createObjectURL(blob);
       audio.src = audioURL;
