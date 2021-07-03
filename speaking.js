@@ -29,7 +29,7 @@ if (navigator.mediaDevices.getUserMedia) {
     
 
     record.onclick = function() {
-      
+      // enable the mic
       mediaRecorder.start();
       console.log(mediaRecorder.state);
       console.log("recorder started");
@@ -40,6 +40,7 @@ if (navigator.mediaDevices.getUserMedia) {
     }
 
     stop.onclick = function() {
+      // TODO disable the mic
       mediaRecorder.stop();
       console.log(mediaRecorder.state);
       console.log("recorder stopped");
