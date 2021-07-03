@@ -66,3 +66,4 @@ To teach the building blocks of constructing original thoughts in Tamil. Startin
         1. Thanda
         1. Common spoken verb conjugations
         1. கொள்ளலாம் அல்லது இருக்குலாம்
+        1. Conjunction words
