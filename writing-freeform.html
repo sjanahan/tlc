@@ -30,6 +30,15 @@
         
         
         console.log(theForm.fname.value)
+        var submittedResponse = theForm.fname.value
+        // onLoad get the answer and store in var
+        var answerRoman = "avasiyam"
+        var answerTamil = "அவசியம்"
+        if (submittedResponse === answerRoman || submittedResponse == answerTamil){
+            console.log("great job")
+        }else{
+            console.log("WRONG")
+        }
         // TODO pass in answer parameter
         // TODO compare with answer
         return true
