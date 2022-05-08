@@ -82,6 +82,21 @@ if (navigator.mediaDevices.getUserMedia) {
       const blob = new Blob(chunks, { 'type' : 'audio/ogg; codecs=opus' });
       console.log(blob)
       // TODO compare the blob to the original
+      // TODO make call to Google API
+      // https://speech.googleapis.com/v1p1beta1/speech:recognize
+      /*
+      {
+        "audio": {
+          "content": "/* Your audio "
+        },
+        "config": {
+          "enableAutomaticPunctuation": true,
+          "encoding": "LINEAR16",
+          "languageCode": "ta-LK",
+          "model": "default"
+        }
+      }
+      */
       chunks = [];
       const audioURL = window.URL.createObjectURL(blob);
       audio.src = audioURL;
